@@ -183,7 +183,7 @@ Ha egy diák a tanulási szintjének megfelelő szintű megértést mutat, kérd
     // Add a "Copy" button after each <li>
     document.querySelectorAll('li').forEach(li => {
         const btn = document.createElement('button');
-        btn.innerText = 'Copy';
+        btn.innerText = 'Másolás';
         btn.className = 'copy-btn';
         btn.addEventListener('click', () => {
             copyToClipboard(li.innerText);
